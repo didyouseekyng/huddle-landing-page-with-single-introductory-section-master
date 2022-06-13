@@ -25,7 +25,6 @@ body {
     place-items: center;
     max-height: 100vh;
     margin: 3rem 3.5rem;
-    overflow-x: hidden;
   }
 }
 
