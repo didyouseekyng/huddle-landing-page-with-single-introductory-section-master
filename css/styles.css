@@ -66,7 +66,7 @@ footer a {
   font-weight: 600;
   letter-spacing: 0.1875rem;
   line-height: 1.5;
-  transition: 0.5s all cubic-bezier(0.3, -0.6, 0.57, 1.59);
+  transition: 0.3s color cubic-bezier(0.3, -0.6, 0.57, 1.59);
 }
 footer a:hover,
 footer a:focus-visible {
@@ -75,6 +75,12 @@ footer a:focus-visible {
   color: hsl(300deg, 69%, 71%);
 }
 @media only screen and (min-width: 81em) and (max-width: 90em) {
+  footer a:hover,
+footer a:focus-visible {
+    color: #191919;
+  }
+}
+@media only screen and (min-width: 61.875em) and (max-width: 80.9375em) {
   footer a:hover,
 footer a:focus-visible {
     color: #191919;
@@ -183,6 +189,7 @@ footer a:focus-visible {
   .huddle-content__image {
     min-width: 48.6vw;
     min-height: 64.5vh;
+    margin-right: 1.6rem;
   }
 }
 .huddle-content__heading {
@@ -198,6 +205,12 @@ footer a:focus-visible {
     padding-right: 25%;
   }
 }
+@media only screen and (min-width: 61.875em) and (max-width: 80.9375em) {
+  .huddle-content__heading {
+    font-size: 2rem;
+    padding-right: 17%;
+  }
+}
 .huddle-content__text {
   margin-bottom: 1.5625rem;
 }
@@ -205,6 +218,13 @@ footer a:focus-visible {
   .huddle-content__text {
     margin-left: 1rem;
     padding-right: 21%;
+    line-height: 1.7;
+  }
+}
+@media only screen and (min-width: 61.875em) and (max-width: 80.9375em) {
+  .huddle-content__text {
+    margin-left: 1rem;
+    padding-right: 8%;
     line-height: 1.7;
   }
 }
@@ -225,6 +245,12 @@ footer a:focus-visible {
 @media only screen and (min-width: 81em) and (max-width: 90em) {
   .huddle-content__btn {
     width: 30%;
+    margin-left: 1rem;
+  }
+}
+@media only screen and (min-width: 61.875em) and (max-width: 80.9375em) {
+  .huddle-content__btn {
+    width: 34%;
     margin-left: 1rem;
   }
 }
